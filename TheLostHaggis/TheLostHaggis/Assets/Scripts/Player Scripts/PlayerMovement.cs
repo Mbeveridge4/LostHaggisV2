@@ -6,50 +6,36 @@ public class PlayerMovement : MonoBehaviour
 {
     //Coded by Mark Beveridge
 
-    //sets the jump speed
-    private readonly float jumpVelocity = 10f;
-    public Rigidbody2D RigidBody;
+    [SerializeField]private float jumpVelocity = 10f;
+    [SerializeField] private float moveSpeed;
+    public Rigidbody2D rb;
     private bool isGrounded = true;
-    // sets multipliers for the jump and fall speeds
-    public float fallMultiplier = 2.5f;
-    public float lowJumpMultiplier = 2f;
+    private float mx;
 
-
-    public void Update()
-    { 
-        // Calls the rigidbody of the attached component to be modified
-        Rigidbody2D RigidBody = GetComponent<Rigidbody2D>();
-
-        //moves player left and right
-        if (Input.GetKey(KeyCode.A))
-            RigidBody.AddForce(Vector2.left);
-        if (Input.GetKey(KeyCode.D))
-            RigidBody.AddForce(Vector2.right);
-
-        // additional code if we wish to add up and down movement. Disabled for child.
-        // if (Input.GetKey(KeyCode.W))
-        //   RigidBody.AddForce(Vector2.up);
-        // if (Input.GetKey(KeyCode.S))
-        //     RigidBody.AddForce(Vector2.down);
-
-        // makes the player jump if space is pressed. Jump key is disabled after set jumps used until reset using jumpCount. 
+    private void Update()
+    {
+        mx = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
 
-            RigidBody.velocity = Vector2.up * jumpVelocity;
+            rb.velocity = Vector2.up * jumpVelocity;
             isGrounded = false;
+           
         }
         // sets the multiplier when you start jumping
-        if (RigidBody.velocity.y < 0)
-        {
-            RigidBody.velocity += (fallMultiplier - 1) * Physics2D.gravity.y * Time.deltaTime * Vector2.up;
-        }
-        // sets the multiplier if falling so that you fall faster
-        else if (RigidBody.velocity.y > 0 && Input.GetKey(KeyCode.Space))
-        {
-            RigidBody.velocity += (lowJumpMultiplier - 1) * Physics2D.gravity.y * Time.deltaTime * Vector2.up;
-        }
+        Vector2 movement = new Vector2(mx * moveSpeed, rb.velocity.y);
+        rb.velocity = movement;
+
     }
+
+    public void FixedUpdate()
+    {
+       
+
+       
+
+    }
+      
         //checks for collision, if hits someting, will mark as "grounded" allowing for another jump
         private void OnCollisionEnter2D(Collision2D collision)
     {
