@@ -28,13 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    public void FixedUpdate()
-    {
-       
-
-       
-
-    }
+   
       
         //checks for collision, if hits someting, will mark as "grounded" allowing for another jump
         private void OnCollisionEnter2D(Collision2D collision)

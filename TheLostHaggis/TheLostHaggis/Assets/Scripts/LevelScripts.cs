@@ -12,7 +12,7 @@ public class LevelScripts : MonoBehaviour
     }
 
     // Loads the MainMenu
-    void MainMenu()
+    public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
@@ -21,27 +21,32 @@ public class LevelScripts : MonoBehaviour
     /// The Following Can be called for the Child Version of Levels
     /// </summary>
 
-    void FamilyHome()
+    public void FamilyHome()
     {
         SceneManager.LoadScene("FamilyHome");
     }
 
-    void TheVillage()
+    public void TheVillage()
     {
         SceneManager.LoadScene("TheVillage");
     }
 
-    void Forest()
+    public void Forest()
     {
         SceneManager.LoadScene("Forest");
     }
 
-    void ForestWolf()
+    public void ForestWolf()
     {
         SceneManager.LoadScene("ForestWolf");
     }
 
-    void Cavern()
+    public void Mountains()
+    {
+        SceneManager.LoadScene("Mountains");
+    }
+
+    public void Cavern()
     {
         SceneManager.LoadScene("Cavern");
     }
@@ -51,26 +56,35 @@ public class LevelScripts : MonoBehaviour
     /// The Following can be called for the Mother Levels
     /// </summary>
 
-    void MotherFamilyHome()
+    public void MotherFamilyHome()
     {
         SceneManager.LoadScene("MotherFamilyHome");
     }
 
-    void MotherTheVillage()
+    public void MotherTheVillage()
     {
         SceneManager.LoadScene("MotherTheVillage");
     }
 
-    void MotherForest()
+    public void MotherForest()
     {
         SceneManager.LoadScene("MotherForest");
     }
+    public void MotherMountains()
+    {
+        SceneManager.LoadScene("MotherMountains");
+    }
 
-    void MotherCavern()
+    public void MotherCavern()
     {
         SceneManager.LoadScene("MotherCavern");
     }
 
+    public void QuitGame()
+    {
+        //exits the Application
+        Application.Quit();
+    }
 
 
 }
