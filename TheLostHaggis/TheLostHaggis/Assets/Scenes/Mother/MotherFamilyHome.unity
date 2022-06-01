@@ -437,7 +437,6 @@ GameObject:
   m_Component:
   - component: {fileID: 34961003}
   - component: {fileID: 34961005}
-  - component: {fileID: 34961004}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (5)
   m_TagString: Untagged
@@ -459,32 +458,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &34961004
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34961002}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &34961005
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1573,6 +1546,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &147300214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+  m_PrefabInstance: {fileID: 118812373714012044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &163453999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5302,7 +5280,6 @@ GameObject:
   m_Component:
   - component: {fileID: 564590175}
   - component: {fileID: 564590177}
-  - component: {fileID: 564590176}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (2)
   m_TagString: Untagged
@@ -5324,32 +5301,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &564590176
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564590174}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &564590177
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5908,7 +5859,6 @@ GameObject:
   m_Component:
   - component: {fileID: 626222450}
   - component: {fileID: 626222452}
-  - component: {fileID: 626222451}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (7)
   m_TagString: Untagged
@@ -5930,32 +5880,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &626222451
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626222449}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &626222452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7215,7 +7139,6 @@ GameObject:
   m_Component:
   - component: {fileID: 750387171}
   - component: {fileID: 750387173}
-  - component: {fileID: 750387172}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (6)
   m_TagString: Untagged
@@ -7237,32 +7160,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &750387172
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750387170}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &750387173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9022,7 +8919,6 @@ GameObject:
   m_Component:
   - component: {fileID: 986704328}
   - component: {fileID: 986704327}
-  - component: {fileID: 986704326}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (2)
   m_TagString: Untagged
@@ -9030,32 +8926,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &986704326
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986704325}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &986704327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13727,7 +13597,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1709170394}
   - component: {fileID: 1709170396}
-  - component: {fileID: 1709170395}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (4)
   m_TagString: Untagged
@@ -13749,32 +13618,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1709170395
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709170393}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &1709170396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15427,7 +15270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1870904968}
   - component: {fileID: 1870904970}
-  - component: {fileID: 1870904969}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (3)
   m_TagString: Untagged
@@ -15449,32 +15291,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1870904969
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870904967}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &1870904970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16150,7 +15966,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1958238673}
   - component: {fileID: 1958238675}
-  - component: {fileID: 1958238674}
   m_Layer: 0
   m_Name: cf_house_bigbrick_pt1_png (1)
   m_TagString: Untagged
@@ -16172,32 +15987,6 @@ Transform:
   m_Father: {fileID: 986704328}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1958238674
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958238672}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.09, y: 2.82}
-    newSize: {x: 8.09, y: 2.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.09, y: 2.82}
-  m_EdgeRadius: 0
 --- !u!212 &1958238675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17833,7 +17622,7 @@ PrefabInstance:
     - target: {fileID: 3641543681013918470, guid: 6f5e54a4b5a361744a9398316f8d460d, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 147300214}
     - target: {fileID: 3641543681013918471, guid: 6f5e54a4b5a361744a9398316f8d460d, type: 3}
       propertyPath: orthographic size
       value: 6
@@ -17889,3 +17678,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3641543681013918712, guid: 6f5e54a4b5a361744a9398316f8d460d, type: 3}
   m_PrefabInstance: {fileID: 2130589459}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &118812373714012044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.2209
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2023
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653306, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812373860653310, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
+      propertyPath: m_Name
+      value: Mother
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0beb7eff46ed7c340859eeeadfc538c6, type: 3}
