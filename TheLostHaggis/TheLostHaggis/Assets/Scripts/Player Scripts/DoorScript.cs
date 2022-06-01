@@ -16,7 +16,7 @@ public class DoorScript : MonoBehaviour
     [SerializeField] private bool isDoor;
     [SerializeField] private bool isLadder;
 
-
+    
     public void OnTriggerStay2D(Collider2D collider)
     {
         // if the player is still colliding, and the player
