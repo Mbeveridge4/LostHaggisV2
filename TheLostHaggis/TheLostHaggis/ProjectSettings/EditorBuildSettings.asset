@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Child/Forest.unity
     guid: 8b0baa91f74940a4c8ae11d5c71e8c4e
   - enabled: 1
-    path: Assets/Scenes/Child/ForestWolf.unity
-    guid: 72b6444be50cebb49aec7c8dad4f89a8
-  - enabled: 1
     path: Assets/Scenes/Child/Mountains.unity
     guid: 356a9729bf81b9f44a70fb1f3f137a95
   - enabled: 1
