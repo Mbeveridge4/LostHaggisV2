@@ -5680,7 +5680,7 @@ PrefabInstance:
 
 
         (Press
-        Enter to see whats going on at home)'
+        E to see whats going on at home)'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
@@ -5688,7 +5688,7 @@ PrefabInstance:
 
 
         (Press
-        Enter to see whats going on at home)'
+        E  to see whats going on at home)'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
@@ -5696,7 +5696,7 @@ PrefabInstance:
 
 
         (Press
-        Enter to see whats going on at home)'
+        E to see whats going on at home)'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677333, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: m_Size.x

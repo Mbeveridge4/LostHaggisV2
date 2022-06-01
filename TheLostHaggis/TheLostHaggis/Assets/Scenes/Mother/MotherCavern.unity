@@ -3681,24 +3681,24 @@ PrefabInstance:
       value: 'And with that - The Haggis was found...
 
 
-        ....[press Enter
-        to see what happened that night].......'
+        ....[press E to see
+        what happened that night].......'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[11]
       value: 'And with that - The Haggis was found...
 
 
-        ....[press Enter
-        to see what happened that night].......'
+        ....[press E to see
+        what happened that night].......'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[12]
       value: 'And with that - The Haggis was found...
 
 
-        ....[press Enter
-        to see what happened that night].......'
+        ....[press E to see
+        what happened that night].......'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677333, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: m_Size.x

@@ -6956,6 +6956,7 @@ GameObject:
   - component: {fileID: 773140073}
   - component: {fileID: 773140072}
   - component: {fileID: 773140071}
+  - component: {fileID: 773140075}
   m_Layer: 0
   m_Name: cf_moutainside_floor01_pt1_png
   m_TagString: Untagged
@@ -7082,6 +7083,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &773140075
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773140070}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 38.01187}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 52.873203, y: 11.85}
+    newSize: {x: 52.873203, y: 11.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 52.873203, y: 15.956043}
+  m_EdgeRadius: 0
 --- !u!1 &775386540
 GameObject:
   m_ObjectHideFlags: 0

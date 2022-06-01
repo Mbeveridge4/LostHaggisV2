@@ -34,8 +34,7 @@ public class DoorScript : MonoBehaviour
                 gameObject.transform.position = targetPosition;
             }
 
-            //66.26 -0.16
-            //75.14
+           
         }
 
     }

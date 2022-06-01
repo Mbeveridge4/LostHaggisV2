@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
-    // Coded by Liam & Mark
+    // Coded by Liam Mead
     public Vector3 originalPos;
     private gamemaster gm;
 

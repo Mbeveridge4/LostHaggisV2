@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Coded by Mark Beveridge
+// simple scripts to call on to use unity's Scene manager to change scene
+// first is a collider option - the rest can be called directly
 public class LevelScripts : MonoBehaviour
 {
     

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// code is intended to stop the player movement from function upon entering a trigger box 
+/// </summary>
 public class DisableMove : MonoBehaviour
 {
     
@@ -16,13 +19,12 @@ public class DisableMove : MonoBehaviour
         }
     }
 
+    //when E key is pressed - move to MotherFamilyHome scene.
+
     public void Update()
     {
-
-
-
         
-        if (Input.GetKeyDown(KeyCode.Return) && endScene == true)
+        if (Input.GetKeyDown(KeyCode.E) && endScene == true)
         {
             SceneManager.LoadScene("MotherFamilyHome");
             

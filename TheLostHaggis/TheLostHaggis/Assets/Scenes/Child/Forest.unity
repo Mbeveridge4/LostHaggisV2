@@ -2428,6 +2428,7 @@ GameObject:
   - component: {fileID: 318817446}
   - component: {fileID: 318817445}
   - component: {fileID: 318817447}
+  - component: {fileID: 318817448}
   m_Layer: 0
   m_Name: cf_forest_trees_pt1_png
   m_TagString: Untagged
@@ -2514,7 +2515,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.1936684, y: 0}
+  m_Offset: {x: -6.1936684, y: 84.91184}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2525,7 +2526,33 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 47.752617, y: 37.47}
+  m_Size: {x: 47.752617, y: 207.29372}
+  m_EdgeRadius: 0
+--- !u!61 &318817448
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318817444}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 82.7188, y: 99.490524}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60.139935, y: 37.47}
+    newSize: {x: 60.139935, y: 37.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 225.5775, y: 106.18521}
   m_EdgeRadius: 0
 --- !u!1 &331841709
 GameObject:
