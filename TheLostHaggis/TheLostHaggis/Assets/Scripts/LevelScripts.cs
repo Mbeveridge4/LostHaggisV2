@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelScripts : MonoBehaviour
 {
+    
     [SerializeField] private int scene;
     private void OnTriggerEnter2D(Collider2D collider)
     {
         SceneManager.LoadScene(scene);
+        
+        
     }
 
     // Loads the MainMenu
