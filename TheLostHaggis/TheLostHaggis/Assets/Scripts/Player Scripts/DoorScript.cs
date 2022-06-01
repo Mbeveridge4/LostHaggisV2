@@ -9,19 +9,36 @@ using UnityEngine;
 /// </summary>
 public class DoorScript : MonoBehaviour
 {
-    private Transform PlayerTransform;
-    [SerializeField] private int NewPosX;
-    [SerializeField] private int NewPosY;
+    //used in the UI to set the target position to move to on command
+    [SerializeField] private Vector3 targetPosition;
+    //used in the UI to identify which target to move
+    [SerializeField] private bool isPlank;
+    [SerializeField] private bool isDoor;
+    [SerializeField] private bool isLadder;
 
 
-    public void OnCollisionStay2D(Collision2D collision)
+    public void OnTriggerStay2D(Collider2D collider)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        // if the player is still colliding, and the player
+        if (collider.gameObject.CompareTag("Player"))
         {
-            //change the players position to the new position
+            if (isDoor || isLadder)
+            {
+                //change the players position to the new position
+                collider.gameObject.transform.position = targetPosition;
+            }
+
+            if (isPlank)
+            {
+                //change the position of the object the script is attached to, to the new position
+                gameObject.transform.position = targetPosition;
+            }
+
+            //66.26 -0.16
+            //75.14
         }
 
     }
-    // Update is called once per frame
+   
   
 }
