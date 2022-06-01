@@ -16240,6 +16240,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 789695374}
+    - target: {fileID: 3641543681013918471, guid: 6f5e54a4b5a361744a9398316f8d460d, type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3641543681013918712, guid: 6f5e54a4b5a361744a9398316f8d460d, type: 3}
       propertyPath: m_RootOrder
       value: 0
