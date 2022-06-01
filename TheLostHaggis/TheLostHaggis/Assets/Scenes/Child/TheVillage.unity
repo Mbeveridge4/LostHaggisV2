@@ -135,6 +135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1706171773174475856, guid: 3dfafe5e39399ad47bfdcda0fa5c87f7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1815980093490612282, guid: 3dfafe5e39399ad47bfdcda0fa5c87f7, type: 3}
       propertyPath: m_Name
       value: Level Exit
@@ -165,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5970709331687769858, guid: 3dfafe5e39399ad47bfdcda0fa5c87f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 308.7
+      value: 281.84
       objectReference: {fileID: 0}
     - target: {fileID: 5970709331687769858, guid: 3dfafe5e39399ad47bfdcda0fa5c87f7, type: 3}
       propertyPath: m_LocalPosition.y
