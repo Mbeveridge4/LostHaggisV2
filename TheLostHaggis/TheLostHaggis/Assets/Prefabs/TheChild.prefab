@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8142199791923323458}
   - component: {fileID: 8142199791923323484}
   - component: {fileID: 8142199791923323485}
-  - component: {fileID: 8142199791923323482}
   - component: {fileID: 8142199791923323487}
   m_Layer: 0
   m_Name: TheChild
@@ -102,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b554d5c69115d7c42bf828de99b0e8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 8142199791923323459}
   jumpVelocity: 8
   moveSpeed: 10
   rb: {fileID: 8142199791923323486}
@@ -177,19 +177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee2803d83e77c941a148b8a17fe3997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8142199791923323482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8142199791923323461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8fd13b6d4b595a449e7d000f7312a9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Interact: 0
 --- !u!114 &8142199791923323487
 MonoBehaviour:
   m_ObjectHideFlags: 0

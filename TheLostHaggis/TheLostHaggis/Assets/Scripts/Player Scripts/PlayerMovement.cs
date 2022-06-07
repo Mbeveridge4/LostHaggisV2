@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     //Coded by Mark Beveridge
-
+    [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField]private float jumpVelocity = 10f;
     [SerializeField] private float moveSpeed;
     public Rigidbody2D rb;
@@ -20,6 +20,16 @@ public class PlayerMovement : MonoBehaviour
         //moves you left or right based off horizontal input
         Vector2 movement = new Vector2(mx * moveSpeed, rb.velocity.y);
         rb.velocity = movement;
+
+        if (mx < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        if (mx >= 0 )
+        {
+            spriteRenderer.flipX = false;
+        }
+
         //checks if player is colliding with something and space is pressed
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
