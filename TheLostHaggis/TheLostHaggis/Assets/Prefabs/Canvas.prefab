@@ -222,6 +222,10 @@ PrefabInstance:
       value: Dialogue Box
       objectReference: {fileID: 0}
     - target: {fileID: 788178047600969762, guid: 903bb49b39af74f4e9eb9cbad8204726, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 788178047600969762, guid: 903bb49b39af74f4e9eb9cbad8204726, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
