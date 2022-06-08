@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,8 +15,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            {
+            SceneManager.LoadScene("MainMenu");
+        }
+
         //sets mx float to the horizontal player input from unity (A,D or left or right keys)
-        mx = Input.GetAxisRaw("Horizontal");
+            mx = Input.GetAxisRaw("Horizontal");
 
         //moves you left or right based off horizontal input
         Vector2 movement = new Vector2(mx * moveSpeed, rb.velocity.y);
