@@ -3776,25 +3776,22 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[10]
       value: 'And with that - The Haggis was found...
 
-
-        ....[press E to see
-        what happened that night].......'
+        [press E to see what
+        happened that night]'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[11]
       value: 'And with that - The Haggis was found...
 
-
-        ....[press E to see
-        what happened that night].......'
+        [press E to see what
+        happened that night]'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677331, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: dialogue.sentences.Array.data[12]
       value: 'And with that - The Haggis was found...
 
-
-        ....[press E to see
-        what happened that night].......'
+        [press E to see what
+        happened that night]'
       objectReference: {fileID: 0}
     - target: {fileID: 2864235308594677333, guid: 534b3f0c47e50ed4e9d0e8f8088f2721, type: 3}
       propertyPath: m_Size.x
@@ -4777,6 +4774,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1495393911}
+    - target: {fileID: 441210103143746576, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 441210103143746576, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.7276
+      objectReference: {fileID: 0}
+    - target: {fileID: 441210103143746576, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 28.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 441210103388807196, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 441210103388807196, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115.3
+      objectReference: {fileID: 0}
     - target: {fileID: 932057665609374169, guid: 0d99a7455152e0b49b2509e3733e09c8, type: 3}
       propertyPath: m_Name
       value: Canvas
